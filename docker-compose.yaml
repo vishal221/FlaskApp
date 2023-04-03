@@ -1,15 +1,15 @@
 version: '3.7'
 services:
   main:
-    image: nathanforester321/main:latest
+    image: vishals321/main:latest
     build:
       context: .
       dockerfile: Dockerfile
       args:
          - USERNAME=${USERNAME}
-         - PASSWORD=${}
-         - ENDPOINT=
-         - 
+         - PASSWORD=${PASSWORD}
+         - ENDPOINT=${ENDPOINT}
+         - NAME=${NAME} 
     ports:
         - target: 5000
           published: 5000

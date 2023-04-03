@@ -4,7 +4,7 @@ sudo apt update
 
 sudo apt install python3-pip -y
 
-pip install -r /home/ubuntu/FlaskMovieDB2/requirements.txt
+pip install -r /home/ubuntu/FlaskApp/requirements.txt
 
 python3 -m pip uninstall flask-sqlalchemy
 
@@ -22,7 +22,7 @@ pip install flask_wtf
 
 pip3 install python-dotenv
 
-python3 /home/ubuntu/FlaskMovieDB2/create.py
+python3 /home/ubuntu/FlaskApp/create.py
 
 
 
